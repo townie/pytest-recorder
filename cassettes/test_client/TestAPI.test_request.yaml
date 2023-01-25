@@ -1,0 +1,37 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.28.1
+    method: GET
+    uri: http://keithwebber.com/
+  response:
+    body:
+      string: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><title>**
+        KEITHWEBBER.COM **</title><meta name="description" content="" /><meta name="keywords"
+        content="" /></head><frameset rows="100%,*" border="0"><frame src="http://www.keithwebber.com"
+        frameborder="0" /></frameset></html>
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '329'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Wed, 25 Jan 2023 21:34:54 GMT
+      Server:
+      - ip-10-123-123-28.ec2.internal
+      X-Request-Id:
+      - bdba6ff0-014d-4d46-88fe-8e2932b53a8b
+    status:
+      code: 200
+      message: OK
+version: 1
